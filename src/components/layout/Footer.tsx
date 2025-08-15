@@ -46,29 +46,29 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Services</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="https://salescentri.com/services/data-enrichment" className="hover:text-primary-light transition-colors">
+                <Link to="/features" className="hover:text-primary-light transition-colors">
                   Contact Validation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/services/data-enrichment" className="hover:text-primary-light transition-colors">
+                <Link to="/features" className="hover:text-primary-light transition-colors">
                   Email Verification
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/platforms/contact-intelligence/ai-aggregator" className="hover:text-primary-light transition-colors">
+                <Link to="/features" className="hover:text-primary-light transition-colors">
                   Data Enrichment
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/solutions/use-case-navigator/demo" className="hover:text-primary-light transition-colors">
+                <Link to="/features" className="hover:text-primary-light transition-colors">
                   API Integration
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/solutions/psa-suite" className="hover:text-primary-light transition-colors">
+                <Link to="/features" className="hover:text-primary-light transition-colors">
                   PSA Suite
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -78,29 +78,29 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Support</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="https://salescentri.com/contact/support-request" className="hover:text-primary-light transition-colors">
+                <Link to="/faq" className="hover:text-primary-light transition-colors">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/docs/user-guide" className="hover:text-primary-light transition-colors">
+                <Link to="/faq" className="hover:text-primary-light transition-colors">
                   Documentation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/docs/api-reference" className="hover:text-primary-light transition-colors">
+                <Link to="/faq" className="hover:text-primary-light transition-colors">
                   API Reference
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/contact/support-request/live-chat" className="hover:text-primary-light transition-colors">
+                <Link to="/contact" className="hover:text-primary-light transition-colors">
                   Live Chat
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/contact/support-request/submit-ticket" className="hover:text-primary-light transition-colors">
+                <Link to="/contact" className="hover:text-primary-light transition-colors">
                   Submit Ticket
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -115,24 +115,24 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/company/careers" className="hover:text-primary-light transition-colors">
+                <Link to="/about" className="hover:text-primary-light transition-colors">
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/company/partners-affiliates" className="hover:text-primary-light transition-colors">
+                <Link to="/contact" className="hover:text-primary-light transition-colors">
                   Partners
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/trust/security-privacy" className="hover:text-primary-light transition-colors">
+                <Link to="/faq" className="hover:text-primary-light transition-colors">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://salescentri.com/trust/compliance-certifications" className="hover:text-primary-light transition-colors">
+                <Link to="/faq" className="hover:text-primary-light transition-colors">
                   Terms of Service
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

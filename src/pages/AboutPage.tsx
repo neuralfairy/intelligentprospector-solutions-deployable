@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import HeroSection from "@/components/ui/hero-section";
 import CTASection from "@/components/sections/CTASection";
+import aboutTeam from "@/assets/about-team.jpg";
 
 const AboutPage = () => {
   const values = [
@@ -182,9 +183,16 @@ const AboutPage = () => {
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
               Meet Our Leadership Team
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Experienced leaders driving innovation in data quality and sales technology
             </p>
+            <div className="mb-12 animate-scale-in" style={{ animationDelay: "0.2s" }}>
+              <img 
+                src={aboutTeam} 
+                alt="Our team working on advanced data verification infrastructure" 
+                className="rounded-xl shadow-lg mx-auto max-w-3xl w-full"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -207,7 +215,7 @@ const AboutPage = () => {
 
           <div className="text-center mt-12">
             <Button variant="outline" size="lg" asChild>
-              <a href="https://salescentri.com/company/careers">
+              <a href="/contact">
                 Join Our Team
               </a>
             </Button>
@@ -289,11 +297,11 @@ const AboutPage = () => {
         description="Join hundreds of companies that trust IntelligentProspector for their contact validation needs."
         primaryCTA={{
           text: "Start Free Trial",
-          href: "https://salescentri.com/get-started/free-trial"
+          href: "/contact"
         }}
         secondaryCTA={{
           text: "Contact Our Team",
-          href: "https://salescentri.com/contact/sales-inquiry"
+          href: "/contact"
         }}
       />
     </div>

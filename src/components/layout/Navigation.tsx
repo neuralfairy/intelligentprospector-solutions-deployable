@@ -60,14 +60,14 @@ const Navigation = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" asChild>
-              <a href="https://salescentri.com/get-started/free-trial">
+              <Link to="/contact">
                 Free Trial
-              </a>
+              </Link>
             </Button>
             <Button className="btn-hero" asChild>
-              <a href="https://salescentri.com/get-started/book-demo">
+              <Link to="/contact">
                 Book Demo
-              </a>
+              </Link>
             </Button>
           </div>
 
@@ -103,14 +103,14 @@ const Navigation = () => {
               ))}
               <div className="flex flex-col space-y-2 px-4 pt-4 border-t border-border">
                 <Button variant="outline" className="w-full" asChild>
-                  <a href="https://salescentri.com/get-started/free-trial">
+                  <Link to="/contact">
                     Free Trial
-                  </a>
+                  </Link>
                 </Button>
                 <Button className="btn-hero w-full" asChild>
-                  <a href="https://salescentri.com/get-started/book-demo">
+                  <Link to="/contact">
                     Book Demo
-                  </a>
+                  </Link>
                 </Button>
               </div>
             </div>
